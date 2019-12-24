@@ -77,9 +77,9 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-local_matrix = assembled_matrix
-local_matrix[0][2] = "Lemons"
-result = local_matrix
-result[0][2] = "Onions"
-result
+local_matrix = []
+new_value = String
+local_matrix[0][2] = new_value
+local_matrix 
+
 end
