@@ -42,22 +42,22 @@ end
 
 def sorted_matrix
    produce_storage = 
- CONVENTIONAL_PRODUCE = [
+ conventional_produce = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
   "Eggplant"
 ],
-ORGANIC_PRODUCE =[
+organic_produce =[
   "Strawberries",
   "Potatoes",
   "Grapes",
   "Avocadoes",
   "Asparagus"
 ]
-CONVENTIONAL_PRODUCE.sort
-ORGANIC_PRODUCE.sort
+conventional_produce.sort
+organic_produce.sort
 produce_storage
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
