@@ -77,9 +77,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-martix = assembled_matrix
-matrix[0][2] = []
+martix = []
+matrix[0][2] = new_value
 martix
-
-
 end
