@@ -78,7 +78,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
 local_matrix = assembled_matrix
-new_value = String
+new_value = "Lemons"
 local_matrix[0][2] = new_value
 local_matrix 
 
