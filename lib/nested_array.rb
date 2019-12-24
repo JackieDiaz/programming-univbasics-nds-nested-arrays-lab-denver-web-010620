@@ -77,7 +77,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-local_matrix = []
+local_matrix = assembled_matrix
 new_value = String
 local_matrix[0][2] = new_value
 local_matrix 
