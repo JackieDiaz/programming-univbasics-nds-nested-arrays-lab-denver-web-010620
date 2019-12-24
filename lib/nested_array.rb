@@ -84,6 +84,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
 local_matrix = assembled_matrix
+local_matrix[2] = "Lemons"
  
   # updated_matrix
   # Given any matrix (array of arrays), a row index and a column index, 
