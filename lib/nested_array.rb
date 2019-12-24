@@ -80,8 +80,7 @@ def matrix_update(matrix, row, column, new_value)
 local_matrix = assembled_matrix
 new_value = "Lemons"
 local_matrix[0][2] = new_value
-result = []
-local_matrix = result
+result = sorted_matrix
 result[0][2] = "Onions"
 result
 end
