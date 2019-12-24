@@ -66,7 +66,7 @@ produce_storage
 end
 
 def matrix_lookup(matrix, row, column)
- produce_storage[1][1]
+ array[1][1]
  
   # matrix_find = martix[1],[1]
   # row_find = row[1],[1]
