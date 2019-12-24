@@ -56,8 +56,9 @@ organic_produce =[
   "Avocadoes",
   "Asparagus"
 ]
-conventional_produce.sort
-organic_produce.sort
+sorted_conventional_produce = conventional_produce.sort
+sorted_organic_produce = organic_produce.sort
+produce_storage = sorted_conventional_produce , sorted_organic_produce
 produce_storage
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
