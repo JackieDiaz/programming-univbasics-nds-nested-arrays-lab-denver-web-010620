@@ -83,10 +83,9 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-
- updated_matrix = []
+local_matrix = assembled_matrix
  
-  updated_matrix
+  # updated_matrix
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
