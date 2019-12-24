@@ -79,5 +79,6 @@ end
 def matrix_update(matrix, row, column, new_value)
 martix = assembled_matrix
 matrix[0][2] = "Lemons"
-martix[0]
+new_matrix[0] = matrix[0]
+new_matrix
 end
