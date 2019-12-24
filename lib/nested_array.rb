@@ -66,7 +66,7 @@ produce_storage
 end
 
 def matrix_lookup(matrix, row, column)
- new_arrays = [][1][1]
+ new_arrays = Array.new[1][1]
  new_arrays
  
   # matrix_find = martix[1],[1]
