@@ -81,6 +81,5 @@ local_matrix = assembled_matrix
 local_matrix[0][2] = "Lemons"
 new_local_matrix = []
 local_matrix = new_local_matrix
-new_local_matrix[0][2] = "Onions"
 new_local_matrix
 end
